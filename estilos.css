@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#todo{
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid gray;
+}
+#cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+#titulos{
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+}
+nav{
+    width: 60%;
+    height: 100%;
+    margin: 10px;
+    padding: 5px;
+    align-content: center;
+}
+nav ul{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: flex;
+    align-items: right;
+    list-style-type: none;
+}
+nav ul li a{
+    margin: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    border-radius: 20px;
+    background-color: rgb(90, 87, 87);
+    color: aliceblue;
+}
+#contenido{
+    border: 2px solid black;
+    margin: 10px;
+}
+#contenido img{
+    margin: 30px;
+    width: 350px;
+}
+#peliculas{
+    margin: 10px;
+    padding: 20px;
+}
+.film{
+    margin: 5px;
+    padding: 20px;
+}
+.film h3{
+    padding: 5px;
+}
